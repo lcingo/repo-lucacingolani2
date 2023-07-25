@@ -1,3 +1,115 @@
+/* Variables */
+* {
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+/* Variables */
+/* Codigo */
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+div .card-body h2 {
+  font-size: 25px;
+}
+div .card-body img {
+  height: 600px;
+  margin-top: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-caption h5 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.about-img img {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.newsletter {
+  padding: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.newsletter h2 {
+  font-size: 25px;
+  font-style: bold;
+  margin-bottom: 20px;
+}
+.newsletter input {
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.container-news {
+  padding: 100px 40px;
+  text-align: center;
+}
+.container-news h1 {
+  font-size: 28px;
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+.container-news p {
+  max-width: 900px;
+  margin: 20px auto;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.container-news div {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container-news div div:hover {
+  width: 260px;
+  padding: 0 10px;
+}
+.container-news i {
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+}
+.container-news input {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  transition: 0.6;
+  width: 260px;
+  font-weight: bold;
+}
+.container-news .hover {
+  width: 260px;
+  padding: 0 10px;
+}
+
+.btn {
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */

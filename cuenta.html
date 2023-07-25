@@ -1,77 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CLOTHING - ROPA - BUZOS - REMERAS - PANTALONES - COLLECTIONS - CREATE UNA CUENTA"
+    />
+    <meta name="keywords" content="ROPA, REMERAS, BUZOS, PANTALONES" />
     <title>Cuenta</title>
-    
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <!-- Style -->
-  <link rel="stylesheet" href="./css/style.css">
+        <!-- ESTILO DE IMAGEN -->
+         
+    <style>
+      body{
+        background: black;
+        background: linear-gradient(to right, gray, white);
+      }
+      
+      .bg{
+        background-image: url(media/nudecuenta.jpeg);
+        background-position: center center;
+      }
+    </style>
     
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <span class="text-primary">Renan</span>scenza</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarS"
+          aria-controls="navbarS"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarS">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="/productos.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a href="/nosotros.html" class="nav-link">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contacto.html" class="nav-link">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a href="/cuenta.html" class="nav-link">Cuenta</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-</head>
-<body>
-   <header class="cuenta-header">
-       <h1 class="titulo-productos">Introduzca sus datos</h1>
-   </header>
-    
-    
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a href="#" class="navbar-brand">
-        <span class="text-primary">Renan</span>scenza</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarS"
-        aria-controls="navbarS"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarS">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a href="/index.html" class="nav-link">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="/productos.html" class="nav-link">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a href="/nosotros.html" class="nav-link">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a href="/contacto.html" class="nav-link">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a href="/cuenta.html" class="nav-link">Cuenta</a>
-          </li>
-        </ul>
+            <!-- INICIO DE SESION -->
+
+
+    <div class="container w-75 bg-primary mt-5 rounded shadow">
+      <div class="row align-items-lg-stretch">
+        <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+        </div>
+        <div class="col bg-white p-5 rounded-end">
+          <div class="text-end">
+            <img src="media/vans.png" width="48px" alt="LOGO" />
+          </div>
+          <h2 class="fw-bold text-center pt-5 mb-5">Bienvenido</h2>
+          <!-- LOGIN -->
+          <form action="#">
+            <div class="mb-4">
+              <label for="email" class="form-label">Correo electrónico:</label>
+              <input type="email" class="form-control" name="email" />
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Password:</label>
+              <input type="password" class="form-control" name="password" />
+            </div>
+            <div class="mb-4 form-check">
+              <input
+                type="checkbox"
+                name="connected"
+                class="form-check-input"
+                id=""
+              />
+              <label for="connected" class="form-check-label"
+                >Mantener Sesión</label
+              >
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">
+                Iniciar Sesión
+              </button>
+            </div>
+            <div class="my-3">
+              <span>No tienes cuenta? <a href="#">Regístrate</a></span> <br>
+              <span><a href="#">Recuperar Contraseña</a></span>
+            </div>
+          </form>
+
+          <!-- LOGIN CON REDES SOCIALES -->
+            <div class="container w-100 my-5">
+                <div class="row text-center">
+                  <div class="col-12">Iniciar Sesión con:</div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-outline-primary w-100 my-1">
+                        <div class="row align-items-center">
+                            <div class="col-2 d-none d-md-block">
+                              <img src="/media/face.png"  width="32"  alt="Facebook">
+                            </div>
+
+                            <div class="col-12 col-md-10 text-center">
+                              Facebook
+                            </div>
+                        </div>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button class="btn btn-outline-danger w-100 my-1">
+                      <div class="row align-items-center">
+                          <div class="col-2 d-none d-md-block">
+                            <img src="/media/google.png" width="32" alt="Google">
+                          </div>
+
+                          <div class="col-12 col-md-10 text-center">
+                            Google
+                          </div>
+                      </div>
+                  </button>
+                  </div>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
-  </nav>
-  <form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-
-</body>
+  </body>
 </html>

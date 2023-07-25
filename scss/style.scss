@@ -1,1 +1,143 @@
-@import "reset";
+/* Variables */
+$fontsizeGrande:40px;
+$fontsizeMedia:25px;
+$fontsizeChica:15px;
+
+$anchoMax:100%;
+$anchoMedio:50%;
+
+@import "partials/reset";
+@import "partials/variables";
+
+
+/* Codigo */
+//  *{
+//      font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+//      padding: 0;
+//      margin: 0;
+//      box-sizing: border-box;
+//  }
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+div .card-body{
+    h2{
+        font-size: $fontsizeMedia;
+    }
+    img{
+        height: 600px;
+        margin-top: auto;
+        justify-content: center;
+        width: $anchoMax;
+        
+    }
+}
+
+.carousel-caption{
+    p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    }
+    h5{
+    font-size: $fontsizeMedia;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: $fontsizeMedia;
+    }
+}
+
+.about-img{
+    img{
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+}
+
+.newsletter{
+    padding: 100px;
+    margin: 0 auto;
+    text-align: center;
+    
+    h2{
+        font-size: $fontsizeMedia;
+        font-style: bold;
+        margin-bottom: 20px;
+
+    }
+    input{
+        max-width: 700px;
+        display: flex;
+        align-items: center;
+        place-items: center;
+        height: 45px;
+        border-radius: 8px;
+        font-size: 16px;
+        background-color: transparent;
+        
+    }
+}
+
+.container-news{
+     padding: 100px 40px;
+     text-align: center;
+     
+     h1{
+        font-size: 28px;
+        font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+     }
+     
+     p{
+        max-width: 900px;
+        margin: 20px auto;
+        font-size: $fontsizeChica;
+        font-weight:lighter;
+     }
+     div{
+        height: 40px;
+        display:flex ;
+        justify-content: center;
+        
+         div:hover{
+             width: 260px;
+           padding: 0 10px;
+         }
+     }
+     i{
+        background: #2f3542;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 3px;
+     }
+     
+     input{
+        border: none;
+        outline: none;
+        padding: 0 10px; 
+        transition: 0.6; 
+        width: 260px;
+        font-weight: bold;    
+        
+     }
+     .hover{
+        width: 260px;
+        padding: 0 10px;
+        
+     }
+     
+     
+}
+
+.btn{
+    background:#2f3542;
+    color: white;
+    padding: 0 10px;
+    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+}
+
+@import "partials/queries"
