@@ -108,12 +108,13 @@ div .card-body{
            padding: 0 10px;
          }
      }
+      
      i{
-        background: #2f3542;
-        width: 40px;
-        line-height: 40px;
-        border-radius: 3px;
-     }
+         background: #2f3542;
+         width: 40px;
+         line-height: 40px;
+         border-radius: 3px;
+      }
      
      input{
         border: none;
@@ -133,11 +134,9 @@ div .card-body{
      
 }
 
-.btn{
-    background:#2f3542;
-    color: white;
-    padding: 0 10px;
-    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+body{
+    height: 100vh;
 }
+
 
 @import "partials/queries"

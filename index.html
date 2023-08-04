@@ -19,43 +19,57 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a href="./index.html" class="navbar-brand">
-          <span class="text-primary">Renan</span>scenza</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarS"
-          aria-controls="navbarS"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+    
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-md bg-black ">
+      <div class="container-fluid">
+        <!-- ICONO -->
+        <a href="./index.html" class="navbar-brand text-white  ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="50" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+            <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarS">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a href="./index.html" class="nav-link">Inicio</a>
+              <a href="./index.html" class="nav-link text-white ">HOME</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a href="./productos.html" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false" role="button" >SHOP</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./productos.html">CLOTHING</a></li>
+                <li><a class="dropdown-item" href="#">ACCESORIES</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a href="./productos.html" class="nav-link">Shop</a>
+              <a href="./nosotros.html" class="nav-link text-white">NOSOTROS</a>
             </li>
             <li class="nav-item">
-              <a href="./nosotros.html" class="nav-link">Nosotros</a>
+              <a href="./contacto.html" class="nav-link text-white">CONTACTO</a>
             </li>
-            <li class="nav-item">
-              <a href="./contacto.html" class="nav-link">Contacto</a>
+          </ul>
+          <hr class="text-white-50">
+          <!-- ENLACES -->
+          <ul class="text-light navbar-nav flex-row flex-wrap">
+            <li class="nav-item col-6 col-md-auto p-1">
+              <a href="./cuenta.html" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg></a>
             </li>
-            <li class="nav-item">
-              <a href="./cuenta.html" class="nav-link">Cuenta</a>
+            <li class="nav-item col-6 col-md-auto p-1">
+              <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+              </svg></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
 
     <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -141,6 +155,60 @@
       </button>
     </div>
 
+    <!-- PRODUCTOS -->
+    <section class="container">
+      <div class="collection-list mt-4 row gx-0">
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2 ">
+          <div class="collection-img position-relative ">
+            <a href="#"><img src="./media/MYSAINT213.jpeg" alt="BUZO NEGRO"  class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE SUPERSTAR</a> <span class="fw-bold">$22.000</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/MYSAINT228.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE TARPE</a>  <span class="fw-bold">$25.000</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/MYSAINT242.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE WAVE</a>  <span class="fw-bold">$28.000</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/MYSAINT298.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE GREENWOOD</a>  <span class="fw-bold">$20.000</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/buzosaint.jpeg" alt="BUZO NEGRO" class="w-100" /></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE BROWNDEAD</a><span class="fw-bold">$15.000</span>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href="#"><img src="./media/buzosaint.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE BROWNDEAD</a><span class="fw-bold">$15.000</span>
+        </div>
+      </div>
+    </section>
+      
+    
+    <!-- NUEVA COLLECION -->
     <section class="about section-padding">
       <div class="container">
         <div class="row">
@@ -152,9 +220,7 @@
           <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
             <div class="about-text text-black">
               <h2>New Collection</h2>
-              <p>
-                La nueva colleción para la edición de invierno..
-              </p>
+              <p>La nueva colleción para la edición de invierno..</p>
               <a href="#" class="btn btn-primary bg-black border-black"
                 >Shop Now</a
               >
@@ -164,23 +230,7 @@
       </div>
     </section>
 
-    <!-- <section class="newsletter">
-      <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="content">
-                <h2>SUSCRIBE TO OUR NEWSLETTER</h2>
-                <div class="input-group">
-                  <input type="email" class="form-control" name="" placeholder="Enter your email">
-                  <span class="input-group-btn">
-                    <button class="btn" type="submit"></button>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-    </section> -->
+    <!-- NEWSLETTER -->
 
     <div class="container-news">
       <form action="">
@@ -188,154 +238,120 @@
         <p>¡EARLY ACCESS Y NOVEDADES!</p>
         <div class="email-box">
           <i class="fa-solid fa-envelope"></i>
-          <input type="tbox" class="" name="" id="" placeholder="Enter your email..">
-          <button class="btn border-black" type="button" name="button">Suscribite</button>
+          <input
+            type="tbox"
+            class=""
+            name=""
+            id=""
+            placeholder="Correo electrónico"
+          />
+          <button class="btn border-black text-white bg-black" type="button" name="button">
+            Suscribite
+          </button>
         </div>
       </form>
     </div>
 
-
-    
-
-    <section class="services section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-header text-center text-black pb-5">
-              <h2>Nuestros Productos</h2>
-              <p>3 CUOTAS SIN INTERES</p>
-              <a href="#" class="btn btn-primary bg-black border-black"
-                >Ver todo</a
-              >
-            </div>
+    <!-- MAS PRODUCTOS -->
+    <section class="container">
+      <div class="collection-list mt-4 row gx-0 container-fluid">
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2 ">
+          <div class="collection-img position-relative ">
+            <a href="#"><img src="./media/MYSAINT213.jpeg" alt="BUZO NEGRO"  class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE SUPERSTAR</a> <span class="fw-bold">$22.000</span>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 col-12 col-lg-4">
-            <div class="card text-white text-center bg-dark pb-2">
-              <div class="card-body">
-                <i class="bi bi-laptop"></i>
-                <h2 class="card-title">Remeras</h2>
-                <!-- <p class="lead">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Omnis dolorem sequi laudantium nam esse ipsa commodi, in ad
-                  aliquid quibusdam voluptate animi iusto ut quo enim!
-                  Consequatur reprehenderit sunt debitis.
-                </p> -->
-                <img class="remera-1" src="media/remesaint.jpeg" alt="remeras" />
-                <button class="btn bg-primary text-white bg-black border-black">
-                  Comprar Ahora
-                </button>
-              </div>
-            </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/MYSAINT228.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
           </div>
-          <div class="col-md-12 col-12 col-lg-4">
-            <div class="card text-white text-center bg-dark pb-2">
-              <div class="card-body">
-                <i class="bi bi-wifi"></i>
-                <h2 class="card-title">Buzos</h2>
-                <!-- <p class="lead">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Omnis dolorem sequi laudantium nam esse ipsa commodi, in ad
-                  aliquid quibusdam voluptate animi iusto ut quo enim!
-                  Consequatur reprehenderit sunt debitis.
-                </p> -->
-                <img class="buzo-1" src="media/buzosaint.jpeg" alt="buzos" />
-                <button class="btn bg-primary text-white bg-black border-black">
-                  Comprar Ahora
-                </button>
-              </div>
-            </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE TARPE</a>  <span class="fw-bold">$25.000</span>
           </div>
-          <div class="col-md-12 col-12 col-lg-4">
-            <div class="card text-white text-center bg-dark pb-2">
-              <div class="card-body">
-                <i class="bi bi-tv"></i>
-                <h2 class="card-title">Pantalones</h2>
-                <!-- <p class="lead">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Omnis dolorem sequi laudantium nam esse ipsa commodi, in ad
-                  aliquid quibusdam voluptate animi iusto ut quo enim!
-                  Consequatur reprehenderit sunt debitis.
-                </p> -->
-                <img class="pantalon-1" src="media/pantasaint.jpeg" alt="pantalones" />
-                <button class="btn bg-primary text-white bg-black border-black">
-                  Comprar Ahora
-                </button>
-              </div>
-            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/MYSAINT242.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
           </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE WAVE</a>  <span class="fw-bold">$28.000</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/MYSAINT298.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE GREENWOOD</a>  <span class="fw-bold">$20.000</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+            <a href=""><img src="./media/buzosaint.jpeg" alt="BUZO NEGRO" class="w-100" /></a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="text-decoration-none text-black">HODDIE BROWNDEAD</a>  <span class="fw-bold">$15.000</span>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 p-2">
+          <div class="collection-img position-relative">
+              <a href=""><img src="./media/MYSAINT298.jpeg" alt="BUZO NEGRO" class="w-100"/></a>
+          </div>
+          <div class="text-center ">
+            <a href="#" class="text-decoration-none text-black">HODDIE BLACKBELL</a>  <span class="fw-bold">$12.000</span>
         </div>
       </div>
     </section>
 
-    <footer class="bg-dark text-white pt-5">
+
+      <!-- FOOTER -->
+    <footer class="bg-body-secondary text-black pt-5">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Renanscenza
-            </h5>
+            <h5 class="text-uppercase mb-4 font-weight-bold">PÁGINAS</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              et ipsam hic nisi ut, iste impedit facilis cum repellendus laborum
-              amet doloribus in. Corporis dolor non consectetur iusto aliquam
-              doloribus?
+              <a href="./productos.html" class="text-black text-decoration-none"
+                >SHOP</a
+              >
+            </p>
+            <p>
+              <a href="./cuenta.html" class="text-black text-decoration-none"
+                >CUENTA</a
+              >
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Categorias
-            </h5>
+            <h5 class="text-uppercase mb-4 font-weight-bold">CATEGORÍAS</h5>
             <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Remeras</a
+              <a href="#" class="text-black" style="text-decoration: none"
+                >REMERAS</a
               >
             </p>
             <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Buzos</a
+              <a href="#" class="text-black" style="text-decoration: none"
+                >BUZOS</a
               >
             </p>
             <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Pantalones</a
+              <a href="#" class="text-black" style="text-decoration: none"
+                >PANTALONES</a
               >
             </p>
             <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Gorras</a
-              >
-            </p>
-          </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Links
-            </h5>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Instagram</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Twitter</a
-              >
-            </p>
-            <p>
-              <a href="#" class="text-white" style="text-decoration: none"
-                >Facebook</a
+              <a href="#" class="text-black" style="text-decoration: none"
+                >ACCESORIOS</a
               >
             </p>
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-              Contacto
-            </h5>
+            <h5 class="text-uppercase mb-4 font-weight-bold">CONTACTO</h5>
             <p><i class="fas fa-home mr-3"></i>Avellaneda,222</p>
-            <p><i class="fas fa-envelope mr-3"></i>lucacingo222@gmail.com</p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>atencionalcliente@gmail.com
+            </p>
             <p><i class="fas fa-phone mr-3"></i>+541145638482</p>
-            <p><i class="fas fa-print mr-3"></i>Avellaneda,222</p>
           </div>
         </div>
         <hr class="mb-4" />
@@ -343,7 +359,7 @@
           <p>
             Copyright 2023 reserved by: Renanscenza
             <a href="#" style="text-decoration: none">
-              <strong class="text-warning"></strong>
+              <strong></strong>
             </a>
           </p>
         </div>
@@ -353,31 +369,31 @@
               <li class="list-inline-item">
                 <a
                   href="#"
-                  class="btn-floating btn btn-sm text-white"
+                  class="btn-floating btn btn-sm text-black"
                   style="font-size: 23px"
                   ><i class="fab fa-facebook"></i
                 ></a>
               </li>
               <li class="list-inline-item">
                 <a
-                  href="#"
-                  class="btn-floating btn btn-sm text-white"
+                  href="https://twitter.com/coderhouse"
+                  class="btn-floating btn btn-sm text-black"
                   style="font-size: 23px"
                   ><i class="fab fa-twitter"></i
                 ></a>
               </li>
               <li class="list-inline-item">
                 <a
-                  href="#"
-                  class="btn-floating btn btn-sm text-white"
+                  href="https://www.instagram.com/mysaintclo/"
+                  class="btn-floating btn btn-sm text-black"
                   style="font-size: 23px"
-                  ><i class="fab fa-google"></i
+                  ><i class="fab fa-instagram"></i
                 ></a>
               </li>
               <li class="list-inline-item">
                 <a
-                  href="#"
-                  class="btn-floating btn btn-sm text-white"
+                  href="https://www.youtube.com/@CoderHouse"
+                  class="btn-floating btn btn-sm text-black"
                   style="font-size: 23px"
                   ><i class="fab fa-youtube"></i
                 ></a>
@@ -389,6 +405,10 @@
     </footer>
 
     <script src="/js/bootstrap.bundle.js"></script>
-    <script src="https://kit.fontawesome.com/119eb126b5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/119eb126b5.js"
+      crossorigin="anonymous"
+    ></script>
+
   </body>
 </html>
