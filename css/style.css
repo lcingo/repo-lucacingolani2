@@ -64,7 +64,7 @@ div .card-body img {
 }
 
 .container-news {
-  padding: 100px 40px;
+  padding: 100px 20px;
   text-align: center;
 }
 .container-news h1 {
@@ -75,16 +75,12 @@ div .card-body img {
   max-width: 900px;
   margin: 20px auto;
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 .container-news div {
   height: 40px;
   display: flex;
   justify-content: center;
-}
-.container-news div div:hover {
-  width: 260px;
-  padding: 0 10px;
 }
 .container-news i {
   background: #2f3542;
@@ -100,13 +96,46 @@ div .card-body img {
   width: 260px;
   font-weight: bold;
 }
-.container-news .hover {
-  width: 260px;
-  padding: 0 10px;
-}
 
 body {
   height: 100vh;
+}
+
+.container h4 {
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+}
+.container .p-colec {
+  font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  padding: 15px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+footer h5 {
+  font-size: 18px;
+}
+
+.about .img-fluid {
+  margin-top: 100px;
+}
+.about .about-text {
+  margin-top: 100px;
+}
+
+section .text-produ {
+  padding-bottom: 15px;
+}
+.container img {
+  cursor: pointer;
+}
+.container img:hover {
+  transform: scale(1.05);
+  transition: 0.9s;
 }
 
 /*# sourceMappingURL=style.css.map */

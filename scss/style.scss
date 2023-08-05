@@ -84,7 +84,7 @@ div .card-body{
 }
 
 .container-news{
-     padding: 100px 40px;
+     padding: 100px 20px;
      text-align: center;
      
      h1{
@@ -96,17 +96,13 @@ div .card-body{
         max-width: 900px;
         margin: 20px auto;
         font-size: $fontsizeChica;
-        font-weight:lighter;
+        font-weight:bolder;
      }
      div{
         height: 40px;
         display:flex ;
         justify-content: center;
         
-         div:hover{
-             width: 260px;
-           padding: 0 10px;
-         }
      }
       
      i{
@@ -125,11 +121,6 @@ div .card-body{
         font-weight: bold;    
         
      }
-     .hover{
-        width: 260px;
-        padding: 0 10px;
-        
-     }
      
      
 }
@@ -137,6 +128,65 @@ div .card-body{
 body{
     height: 100vh;
 }
+
+.container{
+    h4{
+      font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+      font-size:20px; 
+    }
+    .p-colec{
+        font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif ;
+        font-weight: bolder;
+        font-size: 13px;
+        padding: 15px;
+        text-align: center;
+    }
+        
+    }
+
+
+    footer{
+        p{
+            font-size: 14px;
+            
+        }
+        h5{
+            font-size: 18px;
+        }
+    }
+
+.about{
+    .img-fluid{
+        margin-top: 100px;
+    }
+    .about-text{
+        margin-top: 100px;
+    }
+}
+
+section{
+    .text-produ{
+        padding-bottom: 15px;
+        
+    }
+    span{
+       
+    }
+}
+
+ .container{
+    img{
+        cursor: pointer;
+
+    }
+    img:hover{
+        transform: scale(1.05);
+        transition: 0.9s;
+     }
+ }
+
+
+
 
 
 @import "partials/queries"
